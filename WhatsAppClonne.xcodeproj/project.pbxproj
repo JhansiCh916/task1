@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6B0A6AB2C075F8B00E8201B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0A6AA2C075F8B00E8201B /* AppDelegate.swift */; };
+		E6B0A6AD2C075F8B00E8201B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0A6AC2C075F8B00E8201B /* SceneDelegate.swift */; };
+		E6B0A6AF2C075F8B00E8201B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0A6AE2C075F8B00E8201B /* ViewController.swift */; };
+		E6B0A6B22C075F8B00E8201B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B0A6B02C075F8B00E8201B /* Main.storyboard */; };
+		E6B0A6B52C075F8B00E8201B /* WhatsAppClonne.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6B0A6B32C075F8B00E8201B /* WhatsAppClonne.xcdatamodeld */; };
+		E6B0A6B72C075F8D00E8201B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B0A6B62C075F8D00E8201B /* Assets.xcassets */; };
+		E6B0A6BA2C075F8D00E8201B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B0A6B82C075F8D00E8201B /* LaunchScreen.storyboard */; };
+		E6B0A6C52C075F8D00E8201B /* WhatsAppClonneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0A6C42C075F8D00E8201B /* WhatsAppClonneTests.swift */; };
+		E6B0A6CF2C075F8D00E8201B /* WhatsAppClonneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0A6CE2C075F8D00E8201B /* WhatsAppClonneUITests.swift */; };
+		E6B0A6D12C075F8D00E8201B /* WhatsAppClonneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B0A6D02C075F8D00E8201B /* WhatsAppClonneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6B0A6C12C075F8D00E8201B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B0A69F2C075F8B00E8201B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B0A6A62C075F8B00E8201B;
+			remoteInfo = WhatsAppClonne;
+		};
+		E6B0A6CB2C075F8D00E8201B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B0A69F2C075F8B00E8201B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B0A6A62C075F8B00E8201B;
+			remoteInfo = WhatsAppClonne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6B0A6A72C075F8B00E8201B /* WhatsAppClonne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppClonne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B0A6AA2C075F8B00E8201B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6B0A6AC2C075F8B00E8201B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E6B0A6AE2C075F8B00E8201B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6B0A6B12C075F8B00E8201B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6B0A6B42C075F8B00E8201B /* WhatsAppClonne.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhatsAppClonne.xcdatamodel; sourceTree = "<group>"; };
+		E6B0A6B62C075F8D00E8201B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6B0A6B92C075F8D00E8201B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6B0A6BB2C075F8D00E8201B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B0A6C02C075F8D00E8201B /* WhatsAppClonneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAppClonneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B0A6C42C075F8D00E8201B /* WhatsAppClonneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppClonneTests.swift; sourceTree = "<group>"; };
+		E6B0A6CA2C075F8D00E8201B /* WhatsAppClonneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAppClonneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B0A6CE2C075F8D00E8201B /* WhatsAppClonneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppClonneUITests.swift; sourceTree = "<group>"; };
+		E6B0A6D02C075F8D00E8201B /* WhatsAppClonneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppClonneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6B0A6A42C075F8B00E8201B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B0A6BD2C075F8D00E8201B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B0A6C72C075F8D00E8201B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6B0A69E2C075F8B00E8201B = {
+			isa = PBXGroup;
+			children = (
+				E6B0A6A92C075F8B00E8201B /* WhatsAppClonne */,
+				E6B0A6C32C075F8D00E8201B /* WhatsAppClonneTests */,
+				E6B0A6CD2C075F8D00E8201B /* WhatsAppClonneUITests */,
+				E6B0A6A82C075F8B00E8201B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6B0A6A82C075F8B00E8201B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6B0A6A72C075F8B00E8201B /* WhatsAppClonne.app */,
+				E6B0A6C02C075F8D00E8201B /* WhatsAppClonneTests.xctest */,
+				E6B0A6CA2C075F8D00E8201B /* WhatsAppClonneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B0A6A92C075F8B00E8201B /* WhatsAppClonne */ = {
+			isa = PBXGroup;
+			children = (
+				E6B0A6AA2C075F8B00E8201B /* AppDelegate.swift */,
+				E6B0A6AC2C075F8B00E8201B /* SceneDelegate.swift */,
+				E6B0A6AE2C075F8B00E8201B /* ViewController.swift */,
+				E6B0A6B02C075F8B00E8201B /* Main.storyboard */,
+				E6B0A6B62C075F8D00E8201B /* Assets.xcassets */,
+				E6B0A6B82C075F8D00E8201B /* LaunchScreen.storyboard */,
+				E6B0A6BB2C075F8D00E8201B /* Info.plist */,
+				E6B0A6B32C075F8B00E8201B /* WhatsAppClonne.xcdatamodeld */,
+			);
+			path = WhatsAppClonne;
+			sourceTree = "<group>";
+		};
+		E6B0A6C32C075F8D00E8201B /* WhatsAppClonneTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6B0A6C42C075F8D00E8201B /* WhatsAppClonneTests.swift */,
+			);
+			path = WhatsAppClonneTests;
+			sourceTree = "<group>";
+		};
+		E6B0A6CD2C075F8D00E8201B /* WhatsAppClonneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6B0A6CE2C075F8D00E8201B /* WhatsAppClonneUITests.swift */,
+				E6B0A6D02C075F8D00E8201B /* WhatsAppClonneUITestsLaunchTests.swift */,
+			);
+			path = WhatsAppClonneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6B0A6A62C075F8B00E8201B /* WhatsAppClonne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B0A6D42C075F8D00E8201B /* Build configuration list for PBXNativeTarget "WhatsAppClonne" */;
+			buildPhases = (
+				E6B0A6A32C075F8B00E8201B /* Sources */,
+				E6B0A6A42C075F8B00E8201B /* Frameworks */,
+				E6B0A6A52C075F8B00E8201B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsAppClonne;
+			productName = WhatsAppClonne;
+			productReference = E6B0A6A72C075F8B00E8201B /* WhatsAppClonne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6B0A6BF2C075F8D00E8201B /* WhatsAppClonneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B0A6D72C075F8D00E8201B /* Build configuration list for PBXNativeTarget "WhatsAppClonneTests" */;
+			buildPhases = (
+				E6B0A6BC2C075F8D00E8201B /* Sources */,
+				E6B0A6BD2C075F8D00E8201B /* Frameworks */,
+				E6B0A6BE2C075F8D00E8201B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B0A6C22C075F8D00E8201B /* PBXTargetDependency */,
+			);
+			name = WhatsAppClonneTests;
+			productName = WhatsAppClonneTests;
+			productReference = E6B0A6C02C075F8D00E8201B /* WhatsAppClonneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6B0A6C92C075F8D00E8201B /* WhatsAppClonneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B0A6DA2C075F8D00E8201B /* Build configuration list for PBXNativeTarget "WhatsAppClonneUITests" */;
+			buildPhases = (
+				E6B0A6C62C075F8D00E8201B /* Sources */,
+				E6B0A6C72C075F8D00E8201B /* Frameworks */,
+				E6B0A6C82C075F8D00E8201B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B0A6CC2C075F8D00E8201B /* PBXTargetDependency */,
+			);
+			name = WhatsAppClonneUITests;
+			productName = WhatsAppClonneUITests;
+			productReference = E6B0A6CA2C075F8D00E8201B /* WhatsAppClonneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6B0A69F2C075F8B00E8201B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E6B0A6A62C075F8B00E8201B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E6B0A6BF2C075F8D00E8201B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E6B0A6A62C075F8B00E8201B;
+					};
+					E6B0A6C92C075F8D00E8201B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E6B0A6A62C075F8B00E8201B;
+					};
+				};
+			};
+			buildConfigurationList = E6B0A6A22C075F8B00E8201B /* Build configuration list for PBXProject "WhatsAppClonne" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6B0A69E2C075F8B00E8201B;
+			productRefGroup = E6B0A6A82C075F8B00E8201B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6B0A6A62C075F8B00E8201B /* WhatsAppClonne */,
+				E6B0A6BF2C075F8D00E8201B /* WhatsAppClonneTests */,
+				E6B0A6C92C075F8D00E8201B /* WhatsAppClonneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6B0A6A52C075F8B00E8201B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B0A6BA2C075F8D00E8201B /* LaunchScreen.storyboard in Resources */,
+				E6B0A6B72C075F8D00E8201B /* Assets.xcassets in Resources */,
+				E6B0A6B22C075F8B00E8201B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B0A6BE2C075F8D00E8201B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B0A6C82C075F8D00E8201B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6B0A6A32C075F8B00E8201B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B0A6AF2C075F8B00E8201B /* ViewController.swift in Sources */,
+				E6B0A6AB2C075F8B00E8201B /* AppDelegate.swift in Sources */,
+				E6B0A6B52C075F8B00E8201B /* WhatsAppClonne.xcdatamodeld in Sources */,
+				E6B0A6AD2C075F8B00E8201B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B0A6BC2C075F8D00E8201B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B0A6C52C075F8D00E8201B /* WhatsAppClonneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B0A6C62C075F8D00E8201B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B0A6CF2C075F8D00E8201B /* WhatsAppClonneUITests.swift in Sources */,
+				E6B0A6D12C075F8D00E8201B /* WhatsAppClonneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6B0A6C22C075F8D00E8201B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B0A6A62C075F8B00E8201B /* WhatsAppClonne */;
+			targetProxy = E6B0A6C12C075F8D00E8201B /* PBXContainerItemProxy */;
+		};
+		E6B0A6CC2C075F8D00E8201B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B0A6A62C075F8B00E8201B /* WhatsAppClonne */;
+			targetProxy = E6B0A6CB2C075F8D00E8201B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6B0A6B02C075F8B00E8201B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B0A6B12C075F8B00E8201B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6B0A6B82C075F8D00E8201B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B0A6B92C075F8D00E8201B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6B0A6D22C075F8D00E8201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6B0A6D32C075F8D00E8201B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6B0A6D52C075F8D00E8201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3F2L2FU2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsAppClonne/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nspira.WhatsAppClonne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6B0A6D62C075F8D00E8201B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3F2L2FU2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsAppClonne/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nspira.WhatsAppClonne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6B0A6D82C075F8D00E8201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3F2L2FU2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nspira.WhatsAppClonneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsAppClonne.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsAppClonne";
+			};
+			name = Debug;
+		};
+		E6B0A6D92C075F8D00E8201B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3F2L2FU2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nspira.WhatsAppClonneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsAppClonne.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsAppClonne";
+			};
+			name = Release;
+		};
+		E6B0A6DB2C075F8D00E8201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3F2L2FU2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nspira.WhatsAppClonneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsAppClonne;
+			};
+			name = Debug;
+		};
+		E6B0A6DC2C075F8D00E8201B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X3F2L2FU2D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nspira.WhatsAppClonneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsAppClonne;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6B0A6A22C075F8B00E8201B /* Build configuration list for PBXProject "WhatsAppClonne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B0A6D22C075F8D00E8201B /* Debug */,
+				E6B0A6D32C075F8D00E8201B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B0A6D42C075F8D00E8201B /* Build configuration list for PBXNativeTarget "WhatsAppClonne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B0A6D52C075F8D00E8201B /* Debug */,
+				E6B0A6D62C075F8D00E8201B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B0A6D72C075F8D00E8201B /* Build configuration list for PBXNativeTarget "WhatsAppClonneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B0A6D82C075F8D00E8201B /* Debug */,
+				E6B0A6D92C075F8D00E8201B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B0A6DA2C075F8D00E8201B /* Build configuration list for PBXNativeTarget "WhatsAppClonneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B0A6DB2C075F8D00E8201B /* Debug */,
+				E6B0A6DC2C075F8D00E8201B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6B0A6B32C075F8B00E8201B /* WhatsAppClonne.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6B0A6B42C075F8B00E8201B /* WhatsAppClonne.xcdatamodel */,
+			);
+			currentVersion = E6B0A6B42C075F8B00E8201B /* WhatsAppClonne.xcdatamodel */;
+			path = WhatsAppClonne.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6B0A69F2C075F8B00E8201B /* Project object */;
+}
